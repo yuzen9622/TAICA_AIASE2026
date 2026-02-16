@@ -49,8 +49,8 @@
 | 16 | Observability | 3h | LLM UX / error recovery、延遲優化 / Queue、logs / metrics / distributed tracing、token 成本與效能指標、Online A/B testing |
 | 17–18 | Project Demo | 6h | 期末專題展示 |
 
-## 評量方式
-
+## 評量方式 (Homework and Final Project)
+6 Homeworks Expected, and 1 Final Project:
 | 項目 | 比重 |
 |------|:----:|
 | HW 1 | 10% |
