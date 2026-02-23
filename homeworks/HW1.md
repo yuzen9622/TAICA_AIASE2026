@@ -162,13 +162,39 @@ pip install -r requirements.txt
 
 ---
 
+## 🤖 GitHub Actions 自動檢查（CI）
+
+本作業已設置 **GitHub Actions** 作為 CI，會在你每次 `push` 時自動執行基本檢查，確認你的繳交內容符合最低要求。
+
+### 檢查項目
+
+CI 會自動驗證以下基本條件：
+
+- ✅ `content.md` 檔案是否存在
+- ✅ `README.md` 檔案是否存在
+- ✅ `output/` 目錄是否存在且包含至少一個輸出檔案
+
+> ⚠️ **CI 檢查未通過 = 基本條件不符，將直接影響成績。** 請務必在繳交前確認 GitHub Actions 顯示綠色 ✅ 通過。
+
+### 如何查看 CI 結果
+
+1. Push 你的程式碼到 GitHub Classroom 倉庫
+2. 前往你的倉庫頁面，點選 **Actions** 頁籤
+3. 查看最新的 workflow run 是否顯示 ✅ 通過
+4. 若顯示 ❌ 失敗，點入查看錯誤訊息，修正後重新 push
+
+> 💡 **提醒**：CI 僅檢查基本檔案結構，不代表內容品質。通過 CI 是最低門檻，最終評分仍依據內容豐富度、工具完整度與文件品質。
+
+---
+
 ## 📅 繳交期限與方式
 
-1. 接受 GitHub Classroom 邀請連結（由老師另行提供）
+1. 點擊以下連結接受 GitHub Classroom 邀請：👉 **[接受作業邀請](https://classroom.github.com/a/tniubn-f)**
 2. Clone 個人倉庫至本機
 3. 完成 `content.md`、`README.md`、`output/` 等檔案
 4. `git add`、`git commit`、`git push` 至倉庫
-5. **繳交截止時間：請見課程平台公告**
+5. 確認 **GitHub Actions CI 檢查通過**（綠色 ✅）
+6. **繳交截止時間：請見課程平台公告**
 
 ```bash
 git add .
