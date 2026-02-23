@@ -12,7 +12,7 @@
 
 ## 作業目標
 
-學習使用 Markdown 語法撰寫結構豐富的文件，並透過開源工具將其渲染（rendering）為專業的 PDF、網頁或圖片格式，最終提交至 GitHub Classroom。
+> Decouple Content and Rendering - 學習使用 Markdown 語法撰寫結構豐富的文件，並透過開源工具將其渲染（rendering）為專業的 PDF、網頁或圖片格式，最終提交至 GitHub Classroom。
 
 ---
 
@@ -29,9 +29,9 @@ AIASE2026-HW1/
     └── output.png / slides.html ...（視工具而定）
 ```
 
-> ⚠️ **`content.md` 與 `README.md` 為必要檔案，缺少任一者以 0 分計算。**
+> ⚠️ **content.md與README.md為必要檔案，缺少任一者以0分計算。**
 
-> ⚠️ **output目錄至少要提供一個成果檔案可以直接呈現，缺少以 0 分計算。**
+> ⚠️ **output目錄至少要提供一個成果檔案可以直接呈現，缺少以0分計算。**
 
 ---
 
@@ -154,9 +154,11 @@ pip install -r requirements.txt
 | **工具完整度與複雜度** | 工具選用的適切性、渲染流程的完整性 |
 | **文件撰寫詳細程度** | README 的可重現性、指令正確性、說明清晰度 |
 
-- AI 自動評分範圍：**60 – 95 分**
+- AI自動評分範圍：**60 – 95 分**
+- AI評分準則事前不公開，請全面思考以上評分面向
+- AI評分將進行排序，也就是一定有人是60分，有人是95分，整體接近Nornal Distribution with $\mu$＝78~80
 - 人工抽查：確認是否可正確執行；**無法執行者以 0 分計算**
-- 抽查加分：執行正確且呈現**具專業感與美感**者，由老師額外加 **+5 分**
+- 抽查加分：執行正確且呈現**具專業感與美感**者，由老師額外加**1-5分**
 
 > 💡 **提示**：評分重視「可重現性」——請確保你的 README 指令在他人的乾淨環境中可無誤執行。建議自行在新環境中測試一遍再繳交。
 
@@ -178,8 +180,8 @@ CI 會自動驗證以下基本條件：
 
 ### 如何查看 CI 結果
 
-1. Push 你的程式碼到 GitHub Classroom 倉庫
-2. 前往你的倉庫頁面，點選 **Actions** 頁籤
+1. Push 你的程式碼到 GitHub Classroom repo
+2. 前往你的repo頁面，點選 **Actions** 頁籤
 3. 查看最新的 workflow run 是否顯示 ✅ 通過
 4. 若顯示 ❌ 失敗，點入查看錯誤訊息，修正後重新 push
 
@@ -187,14 +189,13 @@ CI 會自動驗證以下基本條件：
 
 ---
 
-## 📅 繳交期限與方式
+## 📅 繳交方式
 
 1. 點擊以下連結接受 GitHub Classroom 邀請：👉 **[接受作業邀請](https://classroom.github.com/a/tniubn-f)**
-2. Clone 個人倉庫至本機
+2. Clone personal repo至local
 3. 完成 `content.md`、`README.md`、`output/` 等檔案
-4. `git add`、`git commit`、`git push` 至倉庫
+4. `git add`、`git commit`、`git push` 至repo
 5. 確認 **GitHub Actions CI 檢查通過**（綠色 ✅）
-6. **繳交截止時間：請見課程平台公告**
 
 ```bash
 git add .
