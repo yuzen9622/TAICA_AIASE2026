@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# 暫存檔案
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 輸出暫存檔（保留最終輸出）
+output/temp.html
+output/*.tmp
+
+# 日誌檔案
+*.log

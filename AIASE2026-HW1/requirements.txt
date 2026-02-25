@@ -1,0 +1,14 @@
+# Python 套件清單 - Markdown 渲染工具
+
+# WeasyPrint - HTML 轉 PDF 工具
+weasyprint>=60.0
+
+# Markdown 處理套件（可選，若需要進階處理）
+markdown>=3.4
+
+# 語法高亮支援（可選，用於程式碼區塊美化）
+Pygments>=2.15
+
+# 其他可選套件
+# markdown-it-py>=3.0  # 另一個 Markdown 解析器
+# markdown2>=2.4       # 輕量級 Markdown 處理
