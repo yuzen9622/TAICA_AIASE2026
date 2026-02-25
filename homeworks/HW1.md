@@ -5,7 +5,7 @@
 > 因為選課相關資料尚未聯結，請所有有修課的同學，先確認你們是否有提供自己相關的姓名、學號、學校、github id、email等資訊，可以到[這裡](https://docs.google.com/forms/d/1x0sxz8-SWJk2uH3WXBDiSvfn13hTNDwZq_pkUp6JRPM/edit)填寫
 ---
 
-## Deadline: 2026/3/3 23:59
+## Deadline: 2026/3/10 23:59
 > 📌 **不允許遲交，天有不測風雲，請提前繳交**
 
 ---
