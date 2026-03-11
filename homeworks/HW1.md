@@ -5,6 +5,8 @@
 > 因為選課相關資料尚未聯結，請所有有修課的同學，先確認你們是否有提供自己相關的姓名、學號、學校、github id、email等資訊，可以到[這裡](https://docs.google.com/forms/d/1x0sxz8-SWJk2uH3WXBDiSvfn13hTNDwZq_pkUp6JRPM/edit)填寫
 ---
 
+> 因應各校加退退時間不一，有部分上週才加入的同學反應來不及HW1的繳交，我們開放HW1延後到本週五晚上23:59 (3/13 23:59)。這是最後deadline。
+
 ## Deadline: 2026/3/10 23:59
 > 📌 **不允許遲交，天有不測風雲，請提前繳交**
 
